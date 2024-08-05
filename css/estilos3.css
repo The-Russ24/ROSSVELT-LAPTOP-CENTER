@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.laptop {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.laptop img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.laptop h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.laptop p {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.price {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: auto;
+    align-self: flex-end;
+}
+.btn {
+    display: inline-block;
+    background: rgb(228, 119, 3);
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid rgb(228, 119, 3);
+    transition: background 0.3s ease, color 0.3s ease;
+}
